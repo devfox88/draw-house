@@ -107,7 +107,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CIUNbi46rHrQNufvdkJi-90" value="XTMP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="743" y="500" width="120" height="32" as="geometry" />
+          <mxGeometry x="752" y="500" width="118" height="32" as="geometry" />
         </mxCell>
         <mxCell id="CIUNbi46rHrQNufvdkJi-92" value="抖音" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="752" y="448" width="120" height="32" as="geometry" />
