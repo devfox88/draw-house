@@ -115,6 +115,36 @@
         <mxCell id="CIUNbi46rHrQNufvdkJi-93" value="抖音" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="910" y="448" width="120" height="32" as="geometry" />
         </mxCell>
+        <mxCell id="CIUNbi46rHrQNufvdkJi-94" value="直连券通道" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="872" y="770" width="120" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="CIUNbi46rHrQNufvdkJi-95" value="定义" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="915" y="728" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CIUNbi46rHrQNufvdkJi-96" value="支持的通道" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="930" y="820" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CIUNbi46rHrQNufvdkJi-97" value="金陵，XTMP，抖音" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="820" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CIUNbi46rHrQNufvdkJi-98" value="金陵 参数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="940" y="860" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CIUNbi46rHrQNufvdkJi-99" value="appkey&amp;nbsp; appsecret&amp;nbsp; url" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="970" y="900" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CIUNbi46rHrQNufvdkJi-100" value="XTMP 参数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="940" y="930" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CIUNbi46rHrQNufvdkJi-101" value="appkey&amp;nbsp; appsecret&amp;nbsp; url" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="970" y="970" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CIUNbi46rHrQNufvdkJi-102" value="抖音 参数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="940" y="1010" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CIUNbi46rHrQNufvdkJi-103" value="clientId&amp;nbsp; clientsecret&amp;nbsp; accountId" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="970" y="1060" width="190" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
