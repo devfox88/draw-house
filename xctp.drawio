@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.14" pages="5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16" pages="6">
   <diagram name="券核销" id="Oejz7C1kqy-tkjZJlRAs">
     <mxGraphModel dx="1194" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -892,6 +892,108 @@
         </mxCell>
         <mxCell id="VN5O63Cu44CVRqFBaBLL-73" value="Dispatch" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#005700;fillColor=#008a00;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1190" y="518" width="70" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="u-2OX0IO568t0HOU0IR-" name="订单核销通知给ota">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_3D39_WHDAPnfH5wgjAk-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="_3D39_WHDAPnfH5wgjAk-6" target="_3D39_WHDAPnfH5wgjAk-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="250" />
+              <mxPoint x="240" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_3D39_WHDAPnfH5wgjAk-6" value="booking" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="100" y="80" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="_3D39_WHDAPnfH5wgjAk-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="_3D39_WHDAPnfH5wgjAk-7" target="_3D39_WHDAPnfH5wgjAk-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="190" />
+              <mxPoint x="290" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_3D39_WHDAPnfH5wgjAk-7" value="adapter&amp;nbsp; ticket" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="480" y="80" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="_3D39_WHDAPnfH5wgjAk-23" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="_3D39_WHDAPnfH5wgjAk-7">
+          <mxGeometry x="45" y="210" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_3D39_WHDAPnfH5wgjAk-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="_3D39_WHDAPnfH5wgjAk-8" target="_3D39_WHDAPnfH5wgjAk-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="160" />
+              <mxPoint x="680" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_3D39_WHDAPnfH5wgjAk-8" value="ticket" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="790" y="80" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="_3D39_WHDAPnfH5wgjAk-10" value="核销通知" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="525" y="128" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_3D39_WHDAPnfH5wgjAk-12" value="核销通知" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="245" y="158" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_3D39_WHDAPnfH5wgjAk-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="339.5" y="330" as="sourcePoint" />
+            <mxPoint x="530" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_3D39_WHDAPnfH5wgjAk-16" value="queue" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="290" y="80" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="_3D39_WHDAPnfH5wgjAk-18" value="发送核销完成通知" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="215" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_3D39_WHDAPnfH5wgjAk-21" value="接受核销通知" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="298" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_3D39_WHDAPnfH5wgjAk-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="_3D39_WHDAPnfH5wgjAk-23" target="_3D39_WHDAPnfH5wgjAk-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="360" />
+              <mxPoint x="490" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_3D39_WHDAPnfH5wgjAk-25" value="ack 结果" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="385" y="358" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_3D39_WHDAPnfH5wgjAk-26" value="switch" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="630" y="80" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="_3D39_WHDAPnfH5wgjAk-27" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="_3D39_WHDAPnfH5wgjAk-26">
+          <mxGeometry x="45" y="210" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_3D39_WHDAPnfH5wgjAk-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="535" y="337" as="sourcePoint" />
+            <mxPoint x="675" y="337" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_3D39_WHDAPnfH5wgjAk-30" value="调用api 通知 switch" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="288" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_3D39_WHDAPnfH5wgjAk-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;dashed=1;" edge="1" parent="1" source="_3D39_WHDAPnfH5wgjAk-27" target="_3D39_WHDAPnfH5wgjAk-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="350" />
+              <mxPoint x="660" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_3D39_WHDAPnfH5wgjAk-32" value="反馈结果" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="565" y="348" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
