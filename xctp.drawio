@@ -654,7 +654,7 @@
         <mxCell id="cOXxymv47Ewv3aynLqHK-5" value="可选 jobId" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="330" y="770" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cOXxymv47Ewv3aynLqHK-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cOXxymv47Ewv3aynLqHK-6">
+        <mxCell id="cOXxymv47Ewv3aynLqHK-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.386;entryY=-0.016;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cOXxymv47Ewv3aynLqHK-6" target="cOXxymv47Ewv3aynLqHK-9">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="695" y="840" as="targetPoint" />
           </mxGeometry>
@@ -664,6 +664,62 @@
         </mxCell>
         <mxCell id="cOXxymv47Ewv3aynLqHK-8" value="send&amp;nbsp; job&amp;nbsp; params" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="700" y="770" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cOXxymv47Ewv3aynLqHK-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cOXxymv47Ewv3aynLqHK-9" target="cOXxymv47Ewv3aynLqHK-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="705" y="875" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cOXxymv47Ewv3aynLqHK-9" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.queue_generic;rotation=5;" vertex="1" parent="1">
+          <mxGeometry x="670" y="880" width="70" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="cOXxymv47Ewv3aynLqHK-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cOXxymv47Ewv3aynLqHK-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cOXxymv47Ewv3aynLqHK-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.116;entryY=0.636;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cOXxymv47Ewv3aynLqHK-11" target="cOXxymv47Ewv3aynLqHK-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="1065" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="1065" />
+              <mxPoint x="530" y="1000" />
+              <mxPoint x="520" y="1000" />
+              <mxPoint x="520" y="891" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cOXxymv47Ewv3aynLqHK-11" value="业务模块 consumer&amp;nbsp; job" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="1070" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cOXxymv47Ewv3aynLqHK-17" value="split&amp;nbsp; job task&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="960" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cOXxymv47Ewv3aynLqHK-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cOXxymv47Ewv3aynLqHK-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cOXxymv47Ewv3aynLqHK-19" value="job&amp;nbsp; task" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="860" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cOXxymv47Ewv3aynLqHK-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="cOXxymv47Ewv3aynLqHK-22" target="cOXxymv47Ewv3aynLqHK-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="1108" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cOXxymv47Ewv3aynLqHK-22" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.queue_generic;rotation=5;" vertex="1" parent="1">
+          <mxGeometry x="320" y="939" width="70" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="cOXxymv47Ewv3aynLqHK-23" value="send&amp;nbsp; task" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="898" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cOXxymv47Ewv3aynLqHK-25" value="执行 job&amp;nbsp; task" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1040" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
