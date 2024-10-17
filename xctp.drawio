@@ -721,6 +721,21 @@
         <mxCell id="cOXxymv47Ewv3aynLqHK-25" value="执行 job&amp;nbsp; task" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="350" y="1040" width="100" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="cOXxymv47Ewv3aynLqHK-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.701;entryY=1.039;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cOXxymv47Ewv3aynLqHK-11" target="cOXxymv47Ewv3aynLqHK-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="1150" />
+              <mxPoint x="320" y="1150" />
+              <mxPoint x="320" y="962" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cOXxymv47Ewv3aynLqHK-27" value="ack&amp;nbsp; result" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1120" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cOXxymv47Ewv3aynLqHK-28" value="状态 成功数量 失败数量" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1150" width="150" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
