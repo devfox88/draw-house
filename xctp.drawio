@@ -1283,6 +1283,30 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="4nBqeCPlJIzzW0F728E5-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4nBqeCPlJIzzW0F728E5-1" target="4nBqeCPlJIzzW0F728E5-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4nBqeCPlJIzzW0F728E5-1" value="oxi 协议" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="300" width="730" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4nBqeCPlJIzzW0F728E5-2" value="xms" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="349" y="585" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="4nBqeCPlJIzzW0F728E5-3" value="kunlun itf" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="480" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="4nBqeCPlJIzzW0F728E5-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.466;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4nBqeCPlJIzzW0F728E5-3" target="4nBqeCPlJIzzW0F728E5-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4nBqeCPlJIzzW0F728E5-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.692;entryY=1.143;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4nBqeCPlJIzzW0F728E5-2" target="4nBqeCPlJIzzW0F728E5-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4nBqeCPlJIzzW0F728E5-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.123;entryY=-0.029;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4nBqeCPlJIzzW0F728E5-3" target="4nBqeCPlJIzzW0F728E5-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4nBqeCPlJIzzW0F728E5-8" value="room kunlun&amp;nbsp; adapter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="210" width="170" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
