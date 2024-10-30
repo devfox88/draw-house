@@ -1305,7 +1305,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4nBqeCPlJIzzW0F728E5-8" value="room kunlun&amp;nbsp; adapter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="210" width="170" height="40" as="geometry" />
+          <mxGeometry x="309" y="200" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4nBqeCPlJIzzW0F728E5-9" value="queue" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="60" y="30" width="60" height="80" as="geometry" />
