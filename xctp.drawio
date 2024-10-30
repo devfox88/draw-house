@@ -1307,6 +1307,29 @@
         <mxCell id="4nBqeCPlJIzzW0F728E5-8" value="room kunlun&amp;nbsp; adapter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="210" width="170" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="4nBqeCPlJIzzW0F728E5-9" value="queue" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="60" y="30" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4nBqeCPlJIzzW0F728E5-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.717;entryY=0.938;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4nBqeCPlJIzzW0F728E5-8" target="4nBqeCPlJIzzW0F728E5-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="395" y="180" />
+              <mxPoint x="103" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4nBqeCPlJIzzW0F728E5-12" value="feign" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="148" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4nBqeCPlJIzzW0F728E5-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.485;entryY=-0.06;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4nBqeCPlJIzzW0F728E5-8" target="4nBqeCPlJIzzW0F728E5-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4nBqeCPlJIzzW0F728E5-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.553;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="404" y="300" as="sourcePoint" />
+            <mxPoint x="403.01" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
