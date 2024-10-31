@@ -1344,6 +1344,47 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="SuPKhQfVUP4bDsXDOMyS-1" value="xdmp adapter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="90" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SuPKhQfVUP4bDsXDOMyS-2" value="xtmp" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="740" y="100" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SuPKhQfVUP4bDsXDOMyS-4" value="xdmp adapter&amp;nbsp; managent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="150" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="SuPKhQfVUP4bDsXDOMyS-5" value="会员档案全量" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="215" y="268" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SuPKhQfVUP4bDsXDOMyS-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SuPKhQfVUP4bDsXDOMyS-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SuPKhQfVUP4bDsXDOMyS-6" value="发展 开始时间 截止时间 单位" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="268" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SuPKhQfVUP4bDsXDOMyS-8" value="提交任务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="350" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SuPKhQfVUP4bDsXDOMyS-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SuPKhQfVUP4bDsXDOMyS-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SuPKhQfVUP4bDsXDOMyS-10" value="根据条件获取数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="337" y="410" width="126" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SuPKhQfVUP4bDsXDOMyS-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SuPKhQfVUP4bDsXDOMyS-12" target="SuPKhQfVUP4bDsXDOMyS-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SuPKhQfVUP4bDsXDOMyS-12" value="创建任务" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="410" width="126" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
