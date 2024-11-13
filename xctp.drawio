@@ -1000,18 +1000,23 @@
           <mxGeometry x="1180" y="580" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mwWa5_y7UD9qHdPPPTJB-7" value="单个个发送message" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1295" y="555" width="130" height="30" as="geometry" />
+          <mxGeometry x="1315" y="540" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mwWa5_y7UD9qHdPPPTJB-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mwWa5_y7UD9qHdPPPTJB-8" target="mwWa5_y7UD9qHdPPPTJB-10">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1455" y="720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="mwWa5_y7UD9qHdPPPTJB-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mwWa5_y7UD9qHdPPPTJB-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1560" y="595" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="mwWa5_y7UD9qHdPPPTJB-8" value="批量删除该记录" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="1400" y="580" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mwWa5_y7UD9qHdPPPTJB-10" value="收到job 记录后，将对应的 历史记录清理掉" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="1470" y="658" width="140" height="42" as="geometry" />
+          <mxGeometry x="1435" y="663" width="140" height="42" as="geometry" />
         </mxCell>
         <mxCell id="mwWa5_y7UD9qHdPPPTJB-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mwWa5_y7UD9qHdPPPTJB-11">
           <mxGeometry relative="1" as="geometry">
@@ -1037,11 +1042,16 @@
         <mxCell id="mwWa5_y7UD9qHdPPPTJB-15" value="批量删除该记录" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="1220" y="830" width="110" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="mwWa5_y7UD9qHdPPPTJB-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mwWa5_y7UD9qHdPPPTJB-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1520" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="mwWa5_y7UD9qHdPPPTJB-17" value="同时删除对应的message history记录" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="1410" y="830" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mwWa5_y7UD9qHdPPPTJB-18" value="删除60天前记录" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1155" y="458" width="110" height="30" as="geometry" />
+          <mxGeometry x="1185" y="460" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mwWa5_y7UD9qHdPPPTJB-19" value="删除60天前记录" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1200" y="698" width="110" height="30" as="geometry" />
@@ -1050,7 +1060,7 @@
           <mxGeometry x="980" y="930" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mwWa5_y7UD9qHdPPPTJB-21" value="找到 过期 记录" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="980" width="100" height="30" as="geometry" />
+          <mxGeometry x="1230" y="980" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mwWa5_y7UD9qHdPPPTJB-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.006;entryY=0.467;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mwWa5_y7UD9qHdPPPTJB-20" target="mwWa5_y7UD9qHdPPPTJB-21">
           <mxGeometry relative="1" as="geometry">
@@ -1082,6 +1092,49 @@
         </mxCell>
         <mxCell id="mwWa5_y7UD9qHdPPPTJB-28" value="批量删除该记录" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="1390" y="1139" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mwWa5_y7UD9qHdPPPTJB-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mwWa5_y7UD9qHdPPPTJB-32" target="mwWa5_y7UD9qHdPPPTJB-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mwWa5_y7UD9qHdPPPTJB-32" value="rk&amp;nbsp; job _type" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1564" y="580" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mwWa5_y7UD9qHdPPPTJB-33" value="100" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="890" y="358" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mwWa5_y7UD9qHdPPPTJB-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.533;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mwWa5_y7UD9qHdPPPTJB-33" target="mwWa5_y7UD9qHdPPPTJB-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="910" y="516" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mwWa5_y7UD9qHdPPPTJB-36" value="job_id" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1575" y="550" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mwWa5_y7UD9qHdPPPTJB-37" value="msgud" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="788" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mwWa5_y7UD9qHdPPPTJB-38" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="815" y="908" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mwWa5_y7UD9qHdPPPTJB-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="mwWa5_y7UD9qHdPPPTJB-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810.92" y="1250" as="sourcePoint" />
+            <mxPoint x="929.9999999999999" y="1275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mwWa5_y7UD9qHdPPPTJB-40" value="mem_point_period_used" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="970" y="1270" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mwWa5_y7UD9qHdPPPTJB-41" value="task" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="1220" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mwWa5_y7UD9qHdPPPTJB-42" value="count=&amp;gt;阈值" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1415" y="770" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mwWa5_y7UD9qHdPPPTJB-44" value="task&amp;nbsp; params= 60" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="980" y="650" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
