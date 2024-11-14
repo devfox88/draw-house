@@ -1782,6 +1782,58 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="rZFSimV4k-34TRAzTOfb-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rZFSimV4k-34TRAzTOfb-1" target="rZFSimV4k-34TRAzTOfb-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rZFSimV4k-34TRAzTOfb-1" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="80" y="90" width="60" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rZFSimV4k-34TRAzTOfb-3" value="binglog" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="98" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rZFSimV4k-34TRAzTOfb-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.611;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rZFSimV4k-34TRAzTOfb-4" target="rZFSimV4k-34TRAzTOfb-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rZFSimV4k-34TRAzTOfb-4" value="flink&amp;nbsp; cdc" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rZFSimV4k-34TRAzTOfb-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.51;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="rZFSimV4k-34TRAzTOfb-12" target="rZFSimV4k-34TRAzTOfb-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rZFSimV4k-34TRAzTOfb-6" value="rabbitmq sink" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="280" y="260" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rZFSimV4k-34TRAzTOfb-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rZFSimV4k-34TRAzTOfb-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rZFSimV4k-34TRAzTOfb-9" value="flink" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="235" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rZFSimV4k-34TRAzTOfb-11" value="log changed trace" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="730" y="235" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rZFSimV4k-34TRAzTOfb-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rZFSimV4k-34TRAzTOfb-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rZFSimV4k-34TRAzTOfb-12" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.queue_generic" vertex="1" parent="1">
+          <mxGeometry x="270" y="340" width="140" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="rZFSimV4k-34TRAzTOfb-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.35;entryY=0.048;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rZFSimV4k-34TRAzTOfb-6" target="rZFSimV4k-34TRAzTOfb-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rZFSimV4k-34TRAzTOfb-15" value="缓存过期通知" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="438" width="100" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
