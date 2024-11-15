@@ -2032,6 +2032,33 @@
         <mxCell id="2oX8t7OarG9GHAIaUpR8-4" value="监听&amp;nbsp; redis key&amp;nbsp; set&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-413" y="690" width="130" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="2oX8t7OarG9GHAIaUpR8-6" value="倒排索引&amp;nbsp; 解析出&amp;nbsp; &amp;nbsp;enttiy:table:id&amp;nbsp; 关联了多个可" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="730" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2oX8t7OarG9GHAIaUpR8-8" value="{ApplicationName}: index:entity: tableName:{tableName} :id:" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="770" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2oX8t7OarG9GHAIaUpR8-9" value="{ApplicationName}: entity: tableName:{tableName} :id:{id}:tenantId{tanantId}" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="800" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2oX8t7OarG9GHAIaUpR8-10" value="key1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-255" y="800" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2oX8t7OarG9GHAIaUpR8-11" value="key2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-255" y="830" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2oX8t7OarG9GHAIaUpR8-12" value="{ApplicationName}: entity: tableName:{tableName} :id:{id}:tenantId{tanantId}" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="830" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2oX8t7OarG9GHAIaUpR8-13" value="key3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-255" y="863" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2oX8t7OarG9GHAIaUpR8-14" value="{ApplicationName}: entity: tableName:{tableName} :id:{id}:tenantId{tanantId}" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="863" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2oX8t7OarG9GHAIaUpR8-15" value="{ApplicationName}: list:entity: tableName:{tableName} : condition:{condition}" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-330" y="950" width="430" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
