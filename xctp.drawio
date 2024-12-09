@@ -2231,8 +2231,8 @@
         <mxCell id="GWrKuW8Iu3FcmHAZO6zo-19" value="mongodb" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
           <mxGeometry x="545" y="585" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GWrKuW8Iu3FcmHAZO6zo-21" value="。。。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
-          <mxGeometry x="730" y="585" width="60" height="30" as="geometry" />
+        <mxCell id="GWrKuW8Iu3FcmHAZO6zo-21" value="sls" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="730" y="585" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GWrKuW8Iu3FcmHAZO6zo-22" value="write" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="630" y="520" width="50" height="30" as="geometry" />
