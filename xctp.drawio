@@ -2148,7 +2148,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="GWrKuW8Iu3FcmHAZO6zo-39" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="300" y="430" width="520" height="270" as="geometry" />
+          <mxGeometry x="340" y="430" width="480" height="270" as="geometry" />
         </mxCell>
         <mxCell id="GWrKuW8Iu3FcmHAZO6zo-36" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="320" y="58" width="490" height="342" as="geometry" />
@@ -2271,7 +2271,10 @@
           <mxGeometry x="630" y="430" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GWrKuW8Iu3FcmHAZO6zo-41" value="application log server" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="304" y="640" width="110" height="60" as="geometry" />
+          <mxGeometry x="340" y="640" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GWrKuW8Iu3FcmHAZO6zo-42" value="read&amp;nbsp; api&amp;nbsp; get&amp;nbsp; logs/db-change/{strogeType}/records/{id}" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="563" width="320" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
