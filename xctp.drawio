@@ -2217,6 +2217,9 @@
         <mxCell id="jVDmVf1XmIpf9BcNRdXO-7" value="根据规则 组合对于的 业务对象" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="1140.2" y="458" width="179.8" height="43.5" as="geometry" />
         </mxCell>
+        <mxCell id="cn2RiZpQZWy6ec0LMJXB-1" value="告警规则" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="368" width="70" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
