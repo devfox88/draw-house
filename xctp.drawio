@@ -2360,6 +2360,25 @@
         <mxCell id="GWrKuW8Iu3FcmHAZO6zo-42" value="read&amp;nbsp; api&amp;nbsp; get&amp;nbsp; logs/db-change/{strogeType}/records/{id}" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="20" y="563" width="320" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="9g56VcPaBQOeaqCxngv8-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9g56VcPaBQOeaqCxngv8-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="815" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9g56VcPaBQOeaqCxngv8-1" value="kafka&amp;nbsp; consumer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="50" y="800" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9g56VcPaBQOeaqCxngv8-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.447;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9g56VcPaBQOeaqCxngv8-3" target="9g56VcPaBQOeaqCxngv8-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9g56VcPaBQOeaqCxngv8-3" value="解析成changeData&amp;nbsp; list" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="225" y="800" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9g56VcPaBQOeaqCxngv8-5" value="合并 entity的注解 和 api的注解" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="880" width="190" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
