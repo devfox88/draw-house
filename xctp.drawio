@@ -2728,8 +2728,95 @@
         <mxCell id="xPOuH-XhSN6qIP9bwFRq-9" value="根据定义 拆分name的分词" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1030" y="390" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="xPOuH-XhSN6qIP9bwFRq-11" value="根据定义 拆分nam的分词" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="xPOuH-XhSN6qIP9bwFRq-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPOuH-XhSN6qIP9bwFRq-11" target="xPOuH-XhSN6qIP9bwFRq-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPOuH-XhSN6qIP9bwFRq-11" value="将生成的分词记录到分层表中" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1230" y="390" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xPOuH-XhSN6qIP9bwFRq-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPOuH-XhSN6qIP9bwFRq-14" target="xPOuH-XhSN6qIP9bwFRq-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPOuH-XhSN6qIP9bwFRq-14" value="根据name的分词 查询 分词表 ，将有相同分词的记录查询出&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="510" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xPOuH-XhSN6qIP9bwFRq-16" value="select ProfileId from&amp;nbsp;&amp;nbsp;&lt;b style=&quot;text-wrap-mode: wrap;&quot;&gt;档案分词 where 分词 in （&#39;xx&#39;,&#39;yy&#39;）&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="525" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xPOuH-XhSN6qIP9bwFRq-17" value="再将其他的字段，手机号码，邮箱等记录 查询档案Id" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="580" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xPOuH-XhSN6qIP9bwFRq-19" value="将两个结果合并，去重，把可能相似的档案查询出来" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1235" y="650" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xPOuH-XhSN6qIP9bwFRq-20" value="select Id from Profile where mobile=xxx" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="570" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xPOuH-XhSN6qIP9bwFRq-21" value="select Id from Profile where email=xxx" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="600" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xPOuH-XhSN6qIP9bwFRq-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.187;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xPOuH-XhSN6qIP9bwFRq-17" target="xPOuH-XhSN6qIP9bwFRq-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPOuH-XhSN6qIP9bwFRq-24" value="比对 创建的档案 和查询出来档案 对比" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="710" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xPOuH-XhSN6qIP9bwFRq-25" value="name&amp;nbsp; 相似性&amp;nbsp; &amp;nbsp;0.8*100" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="1085" y="740" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xPOuH-XhSN6qIP9bwFRq-26" value="mobile 相似性&amp;nbsp; &amp;nbsp;100" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="1085" y="770" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xPOuH-XhSN6qIP9bwFRq-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPOuH-XhSN6qIP9bwFRq-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1230" y="860" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1231" y="815" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xPOuH-XhSN6qIP9bwFRq-27" value="email&amp;nbsp; 相似性&amp;nbsp; &amp;nbsp;0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="1085" y="800" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xPOuH-XhSN6qIP9bwFRq-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPOuH-XhSN6qIP9bwFRq-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1290" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xPOuH-XhSN6qIP9bwFRq-28" value="将其总分 sum 起来，判断是否&amp;gt;&amp;nbsp; 阈值" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="860" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xPOuH-XhSN6qIP9bwFRq-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.8;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xPOuH-XhSN6qIP9bwFRq-19" target="xPOuH-XhSN6qIP9bwFRq-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPOuH-XhSN6qIP9bwFRq-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPOuH-XhSN6qIP9bwFRq-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1440" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xPOuH-XhSN6qIP9bwFRq-37" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xPOuH-XhSN6qIP9bwFRq-34">
+          <mxGeometry x="-0.1312" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xPOuH-XhSN6qIP9bwFRq-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPOuH-XhSN6qIP9bwFRq-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1290" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xPOuH-XhSN6qIP9bwFRq-38" value="N&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xPOuH-XhSN6qIP9bwFRq-36">
+          <mxGeometry x="-0.208" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xPOuH-XhSN6qIP9bwFRq-33" value="大于阈值" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="970" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xPOuH-XhSN6qIP9bwFRq-35" value="记录结果" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="995" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xPOuH-XhSN6qIP9bwFRq-39" value="放弃" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="1265" y="1098" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
