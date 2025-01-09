@@ -2701,6 +2701,36 @@
         <mxCell id="ri9FrdUdgnP0bZdOxtZ--80" value="对比两个档案，完整度高的 做作为主档案" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="67.5" y="730" width="240" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="xPOuH-XhSN6qIP9bwFRq-1" value="1.&amp;nbsp; 创建档案是，根据定义将分词 记录到 分词表中" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="705" y="218" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xPOuH-XhSN6qIP9bwFRq-2" value="类型 es的 倒排索引" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="995" y="218" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xPOuH-XhSN6qIP9bwFRq-3" value="2.&amp;nbsp; 根据 相似度规则，查找档案，根据查询出的结果，对比两个档案的名称 计算其名字的相似度" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="705" y="248" width="530" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xPOuH-XhSN6qIP9bwFRq-4" value="3. 将所有相似性规则 所有的字段 计算其两个档案的 相似度分值" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="705" y="278" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xPOuH-XhSN6qIP9bwFRq-5" value="4. 如果其分值大于定义的 阈值 将其记录到 相似性表中" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="705" y="310" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xPOuH-XhSN6qIP9bwFRq-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPOuH-XhSN6qIP9bwFRq-7" target="xPOuH-XhSN6qIP9bwFRq-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPOuH-XhSN6qIP9bwFRq-7" value="创建 或 修改档案" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="390" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xPOuH-XhSN6qIP9bwFRq-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xPOuH-XhSN6qIP9bwFRq-9" target="xPOuH-XhSN6qIP9bwFRq-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xPOuH-XhSN6qIP9bwFRq-9" value="根据定义 拆分name的分词" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="390" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xPOuH-XhSN6qIP9bwFRq-11" value="根据定义 拆分nam的分词" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="390" width="120" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
